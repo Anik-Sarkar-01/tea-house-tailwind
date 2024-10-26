@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
-    
+
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,9 +27,58 @@
             }
         }
     </script>
+
+    <style>
+        .manrope-font {
+            font-family: "Manrope", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope-font">
+    <header class="max-w-7xl mx-auto pt-10 px-14 md:flex lg:flex">
+        <!-- text content -->
+        <div>
+            <h1 class="text-6xl font-extrabold">It's good <br> tea time at The <br> Tea House</h1>
+            <br>
+            <P class="text-[#777777] w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                Taste Buds.</P>
+            <br>
+            <button
+                class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white px-4 py-4 font-bold rounded-lg">Explore
+                More <i class="fa-solid fa-arrow-right -rotate-45"></i> </button>
+        </div>
+        <!-- image content -->
+        <div class="relative">
+            <!-- image -->
+            <div>
+                <img class="w-full" src="./images/banner.png" alt="">
+            </div>
+            <!-- card -->
+            <div class="flex items-center absolute top-80 left-20 bg-white shadow-xl px-6 py-5 rounded-lg space-x-3">
+                <!-- icon -->
+                 <div>
+                    <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+                 </div>
+                 <!-- text -->
+                  <div>
+                    <h2 class="text-3xl font-extrabold">5.00</h2>
+                    <p class="text-[#777777]">Trust Pilot Ratings</p>
+                  </div>
+            </div>
+            
+
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 
 </body>
 
